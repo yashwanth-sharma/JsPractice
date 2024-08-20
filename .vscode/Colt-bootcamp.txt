@@ -1,0 +1,3 @@
+HTML5 
+<hr> - Horizontal Rule which drawas a line
+<br> - Line break 

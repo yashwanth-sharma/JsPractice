@@ -1,0 +1,68 @@
+h1,body
+{
+    font-family: 'Courier New', Courier, monospace;
+    /* position: inherit;
+    text-align: center;
+    margin-top: 200px; */
+    color: white;
+}
+body 
+{
+    color:white;
+}
+html 
+{
+    background-color: black;
+}
+b 
+{
+    font-weight: bold;
+}
+.lists 
+{
+    /* display:inline; */
+    /* float:inline-start; */
+}
+a 
+{
+    color: black;
+    background-color: yellowgreen;
+    text-decoration: none;
+}
+img
+{
+    height:150px;
+    width:150px;
+}
+.div-practice
+{
+    border:6px solid grey;
+    display:inline-block;
+    padding:10px;
+
+}
+
+.div-practice img 
+{
+    border:2px solid grey; 
+}
+.div-practice p
+{
+    padding-top:10px;
+    text-align: center; 
+}
+.Section-Part 
+{
+    background-color: grey;
+    padding:50px;
+}
+aside {
+    width: 40%;
+    padding-left: 0.5rem;
+    margin-left: 0.5rem;
+    float: right;
+    box-shadow: inset 5px 0 5px -5px #29627e;
+    font-style: italic;
+    color: white;
+  }
+  
