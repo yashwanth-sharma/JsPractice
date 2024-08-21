@@ -41,21 +41,60 @@
 </style>
 <body>
     <table style="border: 2px solid white;">
+        <thead>
         <tr>
-            <th>Hello</th>
-            <th>Hello</th>
-            <th>Hello</th>
+            <th>Heading1</th>
+            <th>Heading2</th>
+            <th>Heading3</th>
         </tr>
-        <tr>
-            <td>Hello</td>
-            <td>Hello</td>
-            <td>Hello</td>
-        </tr>
+        </thead>
+        <tbody>
         <tr>
             <td>Hello</td>
             <td>Hello</td>
             <td>Hello</td>
         </tr>
+        </tbody>
+        <tfoot>
+            <tr>
+                <td>Hello</td>
+                <td>Hello</td>
+                <td>Hello</td>
+            </tr>
+        </tfoot>
+
+    </table>
+
+    <h2>Another table</h2>
+    <table style="border: 2px solid white;">
+        <thead>
+        <tr>
+            <th rowspan="2">Animal</th>
+            <th colspan="2">Mass</th>
+            <th rowspan="2">Flighted</th>
+        </tr>
+        <tr>
+            <th>KG</th>
+            <th>LBS</th>
+        </tr>
+        </thead>
+        <tbody>
+        <tr>
+            <td>ABC</td>
+            <td>104</td>
+            <td>230</td>
+            <td>Yes</td>
+        </tr>
+        </tbody>
+        <tfoot>
+            <tr>
+                <td>ABC</td>
+                <td>104</td>
+                <td>230</td>
+                <td>Yes</td>
+            </tr>
+        </tfoot>
+
     </table>
     
 </body>
