@@ -26,9 +26,9 @@
     <div class="Form-div">
         <form action="/about.html">
             <label for="EmailId">Enter the Mail id : </label>
-            <input type="text" name="Mail id" placeholder="Enter Mail" id="EmailId"><br>
+            <input type="text" name="Mail id" placeholder="Enter Mail" id="EmailId" required><br>
             <label for="">Enter the password : </label>
-            <input type="password" name="Password" placeholder="Enter Password" id=""><br>
+            <input type="password" name="Password" placeholder="Enter Password" id="" minlength="5" maxlength="25" required><br>
             <!-- <label for="">Enter the Color: </label>
             <input type="color" name="" placeholder="Enter Mail" id=""><br> -->
             <label for="">Enter the Number : </label>
@@ -78,19 +78,19 @@
 
             <p>
                 <label for="meal">Please select state you are from</label>
-                <select name="" id="meal">
-                    <option value="NA">NA</option>
+                <select id="meal">
+                    <option value="NA" name="search_query">NA</option>
                     <option value="AP">Andhra Pradesh</option>
                     <option value="TG" >Telangana</option>
                     <option value="TN" >Tamil Nadu</option>
                 </select>
                 <!-- <button>Submit</button> -->
             </p>
-            <label for="range">Select Difficulty</label><br><br>
+            <!-- <label for="range">Select Difficulty</label><br><br>
             <input type="range" name="search_query" id="range" min="1" max="100" step="5">
             <button>Submit</button>
             <br>
-            <textarea name="search_query" id="" cols="10" rows="10"></textarea>
+            <textarea name="search_query" id="" cols="10" rows="10"></textarea> -->
             <button>Submit</button>
         </form>
 
